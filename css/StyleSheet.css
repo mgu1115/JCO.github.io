@@ -1,0 +1,85 @@
+/*Color and button themes*/
+.pink{
+    color: #d665a7;
+}
+
+.blue{
+    color: #5496c2;
+}
+
+.yellow{
+    color:#d8b82b;
+}
+
+.pinkButton{
+    background-color: #c45e99;
+    color:white;
+    width: 180px;
+    padding: 7px 0;
+    border-style: double;
+    border-radius: 4px;
+}
+
+.pinkButton:hover{
+    background-color: #a15d85;
+}
+
+.blueButton{
+    background-color: #5496c2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    float:right;
+}
+
+.blueButton:hover{
+    background-color: #5e7daa;
+}
+
+.yellowButton{
+    background-color: #d8b82b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.yellowButton:hover{
+    background-color: #b19102;
+}
+
+.rightBtn{
+    float: right;
+}
+
+.leftBtn{
+    float: left;
+}
+  
+/*Contact form*/
+  form{
+      margin-top: 50px;
+      transition: all 4s ease-in-out;
+  }
+
+  .form-control{
+    width: 600px;
+    font-size: 18px;
+  }
+
+  input[type=submit] {
+    background-color: #5496c2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5e7daa;
+  }
+
