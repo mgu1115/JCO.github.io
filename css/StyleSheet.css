@@ -13,10 +13,10 @@
 
 .pinkButton{
     background-color: #c45e99;
-    color:white;
-    width: 180px;
-    padding: 7px 0;
-    border-style: double;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
     border-radius: 4px;
 }
 
@@ -83,3 +83,6 @@
     background-color: #5e7daa;
   }
 
+.chapter-logo{
+    float:right;
+}
