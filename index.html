@@ -42,17 +42,38 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#branches">Branches</a>
+            <div class="dropdown">
+              <button class="dropbtn"><a class="nav-link js-scroll-trigger" href=#branches>Branches</a></button>
+              <div class="dropdown-content">
+                <a href="TexasTech.html" target = "_blank"><img src = "https://www.nextscience.com/wp-content/uploads/2017/04/Texas-Tech-logo.png" width = 110px/></a>
+                <a href="UTD.html" target ="_blank"><img src = "https://personal.utdallas.edu/~rkiesch/img/utd-logo.png" width = 100px/></a>
+              </div>
+            </div> 
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#outreach">Outreach</a>
+            <!--
+            <div class="dropdown">
+              <button class="dropbtn"><a class="nav-link js-scroll-trigger">Outreach</a></button>
+              <div class="dropdown-content">
+                <a href="#">Partnerships</a>
+                <a href="#">Stories</a>
+                <a href="#">Become a Member</a>
+              </div>
+            </div> 
+            -->
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="mailto:JoyCentricOrg@gmail.com">Contact</a>
-          </li>
+            <a class="nav-link js-scroll-trigger" href="#contact" onclick="window.open('mailto:JoyCentricOrg@gmail.com');">Contact</a>
           <li class="nav-item">
-            <!--link gofundme page-->
-            <a class="nav-link js-scroll-trigger">Donate</a> 
+            <div class="dropdown">
+              <button class="dropbtn"><a class="nav-link js-scroll-trigger">Donate</a></button>
+              <div class="dropdown-content">
+                <a href="https://www.paypal.com/us/fundraiser/charity/4067167" target ="_blank"><img src = "https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_960_720.png" width= 70px/></a>
+                <a href="#" target = "_blank"><img src = "https://www.seekpng.com/png/full/263-2637828_gofundme-logo-go-fund-me-logo-transparent.png" width = 80px/></a>
+                <!--link gofundme page-->
+              </div>
+            </div> 
           </li>
         </ul>
       </div>
@@ -85,13 +106,13 @@
     </div>
   </section>
 
-  <!--Timeline-->
+  <!--Branches Section (Timeline)-->
   <section class="cd-horizontal-timeline" id="branches">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class = "pink">Our Chapters</h2>
-          <p></p><p></p><p></p>
+          <h2 class = "pink">Our Branches</h2>
+          <br>
         </div>
       </div>
     </div>
@@ -133,7 +154,7 @@
             <a href=#branches><button class= "pinkButton">Visit Chapter Website</button></a>
           </p>
         </li>
-  
+
         <li data-date="20/04/2014">
           <h2>Texas Tech University Chapter<img class = "chapter-logo" src = "https://i.ya-webdesign.com/images/texas-tech-logo-png.png" height = 80px/></h2>
           <em>Coming Soon</em>
@@ -155,8 +176,21 @@
         <div class="col-lg-8 mx-auto">
           <h2 class = "yellow">Outreach</h2>
           <p class="lead">We cannot wait to partner with local hospitals, build our community, and share our stories! Join us in our mission TODAY!</p>
-          <a href="#contact"><button class = "yellowButton">Become a General Member</button></a>
-          <a href="#contact"><button class = "yellowButton">Become a Chapter Member</button></a>
+          <div class="dropdown">
+            <button class="yellowButton">Become a Member</button>
+            <div class="dropdown-content">
+              <a href="#contact">General Member</a>
+              <a href="#contact">Chapter Member</a>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="yellowButton">Donate Now</button>
+            <div class="dropdown-content">
+              <a href="https://www.paypal.com/us/fundraiser/charity/4067167" target ="_blank"><img src = "https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_960_720.png" width= 70px/></a>
+              <a href="#" target = "_blank"><img src = "https://www.seekpng.com/png/full/263-2637828_gofundme-logo-go-fund-me-logo-transparent.png" width = 80px/></a>
+              <!--link gofundme page-->
+            </div>
+          </div> 
         </div>
       </div>
     </div>
@@ -171,7 +205,7 @@
           <div class = "contact-info">
             <h2 class = "blue">Contact us</h2>
             <p></p>
-            <p>The Contact Us feature is currently unavailable since our host host GitHub is a static hosting service. Please email us at <a href="mailto:JoyCentricOrg@gmail.com">JoyCentricOrg@gmail.com</a>. Can't wait to get in touch!</p>
+            <p>The Contact Us feature is currently unavailable since our host GitHub is a static hosting service.<br>Please email us at <a href="mailto:JoyCentricOrg@gmail.com">JoyCentricOrg@gmail.com</a>. Can't wait to get in touch!</p>
             <form id= "contact-form" method = "post" action ="contact-form-handler.php">
               <label for="name">First & Last Name</label>
               <input name = "name" type= "text" class = "form-control" placeholder="Your name.." required>

@@ -5,11 +5,12 @@ Main Components
 -------------------------------- */
 .cd-horizontal-timeline {
   opacity: 0;
-  margin: 2em auto;
+  margin: 1em auto;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
+
 .cd-horizontal-timeline::before {
   /* never visible - this is used in jQuery to check the current MQ */
   content: 'mobile';
@@ -139,7 +140,7 @@ Main Components
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
-    margin: 6em auto;
+    margin: 1em auto;
   }
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */
@@ -215,11 +216,12 @@ Main Components
 .cd-horizontal-timeline .events-content {
   position: relative;
   width: 100%;
-  margin: 2em 0;
+  margin: 1em 0;
   overflow: hidden;
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
   transition: height 0.4s;
+  padding-left: 50px;
 }
 .cd-horizontal-timeline .events-content li {
   position: absolute;
@@ -281,7 +283,7 @@ Main Components
 .cd-horizontal-timeline .events-content em {
   display: block;
   font-style: italic;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 .cd-horizontal-timeline .events-content em::before {
   content: '- ';
