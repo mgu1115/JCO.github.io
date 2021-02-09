@@ -11,6 +11,10 @@
     color:#d8b82b;
 }
 
+.red{
+  color:#b61c1c;
+}
+
 .pinkButton{
     background-color: #c45e99;
     color: white;
@@ -49,6 +53,19 @@
 
 .yellowButton:hover{
     background-color: #b19102;
+}
+
+.redButton{
+  background-color: #b61c1c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.redButton:hover{
+    background-color: #be5a5a;
 }
 
 .rightBtn{
