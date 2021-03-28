@@ -20,6 +20,9 @@
   <!-- Own Style Sheet-->
   <link href="css/StyleSheet.css" rel="stylesheet">
 
+  <!-- Timeline Style Sheet -->
+  <link href="TechMeetings/timeline-SS.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -49,8 +52,7 @@
           </div> 
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact" onclick="window.open('mailto:jco.raiders@gmail.com');">Contact</a>
-        </li>
+          <a class="nav-link js-scroll-trigger" href="#contact" onclick="window.open('mailto:JoyCentricOrg@gmail.com');">Contact</a>
         <li class="nav-item">
           <div class="dropdown">
             <button class="dropbtn"><a class="nav-link js-scroll-trigger">Donate</a></button>
@@ -93,8 +95,46 @@
     </div>
   </section>
 
+<!--Meetings Section (Timeline)-->
+<section class="cd-horizontal-timeline" id="branches">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class = "red">Meetings</h2>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="events-wrapper">
+      <div class="events">
+        <ol style = "list-style: none;"> 
+          <li><a href="#0" data-date="13/06/2020" class="selected">27 Mar</a></li>
+        </ol>
+        <span class="filling-line" aria-hidden="true"></span>
+      </div> <!-- .events -->
+    </div> <!-- .events-wrapper -->
+    <ul class="cd-timeline-navigation" style = "list-style: none;">
+      <li><a href="#0" class="prev inactive">Prev</a></li>
+      <li><a href="#0" class="next">Next</a></li>
+    </ul> <!-- .cd-timeline-navigation -->
+  </div> <!-- .timeline -->
+<!--Timeline Content-->
+  <div class="events-content">
+    <ol style = "list-style: none;">
+      <li class="selected" data-date="13/06/2020">
+        <h2>First Meeting</h2>
+        <em>March 27th, 2021</em>
+        <p>	
+          <a href="TechMeetings/JCO First Meeting PPT.pdf">JCO First Meeting Powerpoint (PDF)</a>
+        </p>
+      </li>
+    </ol>
+  </div> <!-- .events-content -->
+</section>
+
 <!--Outreach Section-->
-<section id="outreach">
+<section id="outreach" class="bg-light">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
@@ -108,8 +148,8 @@
           </div>
         </div> 
         <div class="dropdown"> 
-          <a href="https://forms.gle/z8eMbuFthyB1S53T7" target= "_blank"><button class = "redButton">Start a Chapter</button></a>
-        </div> 
+          <a href="https://forms.gle/z8eMbuFthyB1S53T7" target= "_blank"><button class = "redButton">Start a Chapter</button>
+          </div> 
         <div class="dropdown">
           <button class="redButton">Donate Now</button>
           <div class="dropdown-content">
@@ -124,13 +164,12 @@
 
 
    <!--Contact Section-->
-   <section id="contact" class="bg-light">
+   <section id="contact" >
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class = "red">Contact</h2>
-          <p class="lead">Please email <a href="mailto:jco.raiders@gmail.com">jco.raiders@gmail.com</a> for Chapter specific inquires or reach us at <a href="mailto:JoyCentricOrg@gmail.com">JoyCentricOrg@gmail.com</a>.</p>
-          <p class="lead">Can't wait to get in touch!</p>
+          <p>Please email us at <a href="mailto:JoyCentricOrg@gmail.com">JoyCentricOrg@gmail.com</a>. Can't wait to get in touch!</p>
         </div>
       </div>
     </div>
@@ -144,6 +183,18 @@
     <!-- /.container -->
   </footer>
 
+ <!-- Bootstrap core JavaScript -->
+ <script src="vendor/jquery/jquery.min.js"></script>
+ <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+ <!-- Plugin JavaScript -->
+ <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+ <!-- Custom JavaScript for this theme -->
+ <script src="js/scrolling-nav.js"></script>
+
+ <!-- JavaScript for Timeline -->
+ <script src="js/timeline.js"></script>
 
   
 </body>
